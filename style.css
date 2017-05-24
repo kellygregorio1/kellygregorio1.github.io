@@ -1,0 +1,27 @@
+*,*:before, *:after{
+	box-sizing: border-box;
+	position: relative;
+}
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+section{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+}
+h1 {
+	font-size: 30px;
+	
+}
+.ft-perfil {
+	width: 30%;
+	border-radius: 50%;
+}
+img {
+	width: 100px;
+}
